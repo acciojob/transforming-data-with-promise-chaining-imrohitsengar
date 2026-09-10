@@ -26,7 +26,7 @@ function hello() {
         return new Promise((res) => {
             setTimeout(() => {
                 res(resolvedData - 3);
-            }, 2000);
+            }, 1000);
         });
     })
 
@@ -37,7 +37,7 @@ function hello() {
         return new Promise((res) => {
             setTimeout(() => {
                 res(resolvedData / 2);
-            }, 2000);
+            }, 1000);
         });
     })
 
@@ -48,7 +48,7 @@ function hello() {
         return new Promise((res) => {
             setTimeout(() => {
                 res(resolvedData + 10);
-            }, 2000);
+            }, 1000);
         });
     })
 
