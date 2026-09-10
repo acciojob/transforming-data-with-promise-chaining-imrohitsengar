@@ -15,7 +15,7 @@ function hello() {
         return new Promise((res) => {
             setTimeout(() => {
                 res(resolvedData * 2);
-            }, 2000);
+            }, 1000);
         });
     })
 
